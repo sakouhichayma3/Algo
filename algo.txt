@@ -1,0 +1,45 @@
+ALGORITHM SENTENCE
+
+VAR
+
+   nbx,nby,nbd:= INTEGER ;
+
+   sentc:= STRING[] ;
+
+BEGIN
+
+  nbd:= 0 ;
+
+  nby:= 1 ;
+
+  nbx:= 0;
+
+  write("type the sentence")
+
+  read(sentc)
+
+REPEAT
+
+   IF (sentc[nbd]=" ") THEN
+
+       nbw:=nbx+1 ;
+
+   END_IF
+
+  IF (sentc[nbc] in ["a","e","u","i","o","y"]) THEN
+
+   nbv:= nby +1 ;
+
+   END_IF
+
+   nbc := nbd+1 ;
+
+UNTIL (sentc[nbd]=".")
+
+write( "le nombre de caractere est ",nbd+1 )
+
+write (" le nombre de mot est ",nby)
+
+write (" le nombre de voyelle est ",nbx)
+
+END
