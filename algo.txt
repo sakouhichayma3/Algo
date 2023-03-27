@@ -22,7 +22,7 @@ REPEAT
 
    IF (sentc[nbd]=" ") THEN
 
-       nbw:=nbx+1 ;
+       nbx:=nbx+1 ;
 
    END_IF
 
